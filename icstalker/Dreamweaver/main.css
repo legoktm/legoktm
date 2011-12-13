@@ -1,0 +1,12 @@
+.text {
+	font-family: Calibri;
+	text-align: center;
+
+}h1 {
+	font-family: "MS Serif", "New York", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 36px;
+}
