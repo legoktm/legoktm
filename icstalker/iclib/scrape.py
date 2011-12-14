@@ -24,7 +24,7 @@ def classes(text):
 			set = str(row)
 	soup = bs(set)
 	grade = soup.td.contents[0]
-	return grade
+	return grade.split('%')[0]
 
 
 
