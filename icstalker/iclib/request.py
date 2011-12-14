@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-class IC:
+class request:
 	def __init__(self, userinfo, debug = False):
 		self.debug = debug
 		self.loginpage = 'https://ic.sjusd.org/campus/verify.jsp'

@@ -1,3 +1,3 @@
 #!/usr/bin/python
 __all__ = [ 'request']
-import request
+from request import request
