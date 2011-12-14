@@ -15,6 +15,25 @@ def schedule(text):
 				final.append({'url':url,'name':name})
 	return final
 
+
+def classes(text):
+	soup = bs(text)
+	search = soup.body.findAll('td',attrs={'align':'right'})
+	for row in search:
+		if row.br:
+			set = str(row)
+	soup = bs(set)
+	grade = soup.td.contents[0]
+	return grade
+
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
 	f=open('../schedule.html','r')
 	t=f.read()
